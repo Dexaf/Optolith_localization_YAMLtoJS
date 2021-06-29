@@ -6,7 +6,7 @@
         $lang = $_GET['lang'];
 
         /* directory ai file, da cambiare nella messa online */
-        $url = "C:/Users/Federico/Desktop/Data/";
+        $url = "./Data/";
 
         /* estrapoliamo la lista di file presenti dentro la directory associata alla lingua */
         $directory = $url.$lang."/";
